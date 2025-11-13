@@ -1,0 +1,8 @@
+# Ignorar dependencias
+node_modules/
+dist/
+.parcel-cache/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
