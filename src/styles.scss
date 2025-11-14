@@ -305,6 +305,108 @@ article a:hover {
 
 }
 
+/* ------------------------------------
+   ESTILOS GENERALES DE LA PÁGINA LINKS
+---------------------------------------*/
+
+.contenedor-links {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* TITULARES */
+.contenedor-links h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #1a4d7a;
+}
+
+.contenedor-links h2 {
+  font-size: 1.7rem;
+  margin-top: 2.5rem;
+  color: #2368a2;
+  border-left: 4px solid #2368a2;
+  padding-left: 0.7rem;
+}
+
+.contenedor-links h3 {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  color: #444;
+}
+
+/* PÁRRAFOS */
+.contenedor-links p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* LISTAS */
+.contenedor-links ul {
+  padding-left: 1.2rem;
+  margin-top: 1rem;
+}
+
+.contenedor-links li {
+  margin-bottom: 0.6rem;
+}
+
+/* ENLACES */
+.contenedor-links a {
+  color: #0d71b9;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.contenedor-links a:hover {
+  color: #094d80;
+}
+
+/* ARTÍCULOS */
+.contenedor-links article {
+  background: #f7f9fc;
+  padding: 1.2rem;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #e3e8ef;
+}
+
+/* ------------------------------
+   RESPONSIVE DESIGN
+--------------------------------*/
+
+/* Tablets */
+@media (min-width: 600px) {
+  .contenedor-links {
+    padding: 3rem 2rem;
+  }
+
+  .contenedor-links h1 {
+    font-size: 2.6rem;
+  }
+
+  .contenedor-links h2 {
+    font-size: 1.9rem;
+  }
+}
+
+/* Escritorio */
+@media (min-width: 900px) {
+  .contenedor-links {
+    padding: 4rem 0;
+  }
+
+  .contenedor-links h1 {
+    font-size: 2.8rem;
+  }
+}
+
+
 
 
 
