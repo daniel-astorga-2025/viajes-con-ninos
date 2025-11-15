@@ -9,7 +9,7 @@
     "IE 11"
   ],
   "scripts": {
-    "parcel:dev": "parcel src/index.html src/categoria/index.html src/links/index.html",
+    "parcel:dev": "parcel src/index.html src/categoria/index.html src/links/index.html",    
     "parcel:build": "parcel build src/index.html src/categoria/index.html src/links/index.html --public-url ./",
     "clean": "rimraf dist .parcel-cache",
     "start": "npm-run-all clean parcel:dev",

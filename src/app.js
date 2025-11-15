@@ -1,4 +1,4 @@
-import './styles.scss';
+import "./styles.scss";
 
 document.addEventListener('DOMContentLoaded', () => {
   const swiper = new Swiper('.swiper', {
