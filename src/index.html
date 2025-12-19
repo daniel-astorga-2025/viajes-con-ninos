@@ -10,8 +10,39 @@
   <include src="./includes/header.html"></include>
 
 
-   <main>
+   <main class="main-portada">
      <section class="hero">
+      <div class="flight-container">
+  <svg width="300" height="100"
+   
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-label="Avión cruzando el cielo"
+    preserveAspectRatio="xMidYMid meet"
+  >
+    <!-- Avión -->
+    
+    <g class="plane">
+      <!-- Fuselaje -->
+      <rect x="10" y="26" width="60" height="8" rx="4" ry="4" />
+
+      <!-- Morro -->
+      <polygon points="70,26 82,30 70,34" />
+
+      <!-- Ala principal -->
+      <polygon points="35,20 55,30 35,40 30,30" />
+
+      <!-- Ala trasera -->
+      <polygon points="18,22 28,30 18,38" />
+
+      <!-- Cola vertical -->
+      <polygon points="12,18 20,26 12,26" />
+    </g>
+
+  </svg>
+</div>
+
+
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="./images/foto1.jpg" alt="foto Parque Ordesa"></div>
@@ -39,6 +70,13 @@
           <p>Encuentra una variedad de destinos super divertidos que visitar.</p>
         </div>
 
+        <figure class="main-links-image clip-mapa">
+          <img
+            src="./images/dedo_en_mapa.jpg"
+            alt="Dedo señalando un destino en un mapa, simbolizando la elección de un viaje"
+          />
+        </figure>
+
         <div class="card">
           <h3><a href="./links/">Fuentes y Créditos</a></h3>
           <p>
@@ -46,6 +84,7 @@
           </p>
         </div>
       </section>
+
 
    </main> 
 
