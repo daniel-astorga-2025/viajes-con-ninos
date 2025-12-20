@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Descubre El parque temático más grande del Mediterráneo, con diversión para todas las edades.">
+     <title>Parque temático más grande del Mediterráneo</title>
+</head>
+<body>
+     <include src="../includes/header.html"></include>
+     <main>
+          <article class="detalle-destino">
+               <header>
+               <h1>Parque temático más grande del Mediterráneo</h1>
+               <p>
+                    Situado en Salou, Tarragona, este parque temático es uno de los espacios recreacionales
+                    más impresionantes de España y un destino ideal para disfrutar en familia.
+               </p>
+               </header>
+
+              <!-- Imagen principal con dirección de arte -->
+               <figure class="imagen-destacada">
+               <picture>
+               <!-- Escritorio -->
+               <source
+                    media="(min-width: 1024px)"
+                    srcset="../images/portaventura-desktop.jpg"
+               >
+
+               <!-- Tablet -->
+               <source
+                    media="(min-width: 768px)"
+                    srcset="../images/portaventura-tablet.jpg"
+               >
+
+               <!-- Móvil (fallback) -->
+               <img
+                    src="../images/portaventura-mobile.jpg"
+                    alt="Parque temático más grande del Mediterráneo"
+               >
+               </picture>
+
+               <figcaption>
+               Vista de una atracción en Parque Portaventura, en Salou, Tarragona.
+               </figcaption>
+               </figure>
+
+               <!-- Contenido descriptivo -->
+               <section aria-labelledby="descripcion-portaventura">
+               <h2 id="descripcion-portaventura">Diversión para toda la familia</h2>
+
+               <p>
+               PortAventura World es uno de los complejos de ocio más importantes de Europa,
+               ubicado en la Costa Dorada, y ofrece una combinación única de atracciones,
+               espectáculos y experiencias temáticas inspiradas en diferentes partes del mundo.
+               </p>
+
+               <p>
+               El parque está especialmente pensado para familias, con zonas adaptadas a todas
+               las edades, atracciones infantiles, áreas acuáticas y servicios que facilitan
+               una visita cómoda y segura con niños.
+               </p>
+
+               <p>
+               Además de la diversión, PortAventura apuesta por el entretenimiento educativo
+               a través de espectáculos culturales, ambientaciones cuidadas y experiencias
+               que fomentan la imaginación y el disfrute compartido.
+               </p>
+               </section>
+
+              
+               <!-- Galería de imágenes -->
+               <section aria-labelledby="galeria-portaventura">
+               <h2 id="galeria-portaventura">Galería de imágenes</h2>
+
+               <div class="galeria">
+               <figure>
+                    <img src="../images/portaventura-atraccion.jpg"
+                         alt="Familias disfrutando de una atracción en PortAventura World">
+                    <figcaption>
+                    Atracciones pensadas para disfrutar en familia.
+                    </figcaption>
+               </figure>
+
+               <figure>
+                    <img src="../images/portaventura-espectaculo.jpg"
+                         alt="Espectáculo temático en PortAventura World">
+                    <figcaption>
+                    Espectáculos en vivo con ambientaciones internacionales.
+                    </figcaption>
+               </figure>
+
+               <figure>
+                    <img src="../images/portaventura-infantil.jpg"
+                         alt="Zona infantil de PortAventura World">
+                    <figcaption>
+                    Zonas infantiles adaptadas a los más pequeños.
+                    </figcaption>
+               </figure>
+               </div>
+               </section>
+
+
+               <!-- Vídeo -->
+               <section class="section-video" aria-labelledby="video-portaventura">
+               <h2 id="video-portaventura">Descubre PortAventura en vídeo</h2>
+
+               <div class="video-responsive">
+               <iframe  src="https://www.youtube.com/embed/nVCLFdJrNQM?si=WUMRIKTtIyMQKOgB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               </div>
+               </section>
+
+
+               <!-- Navegación -->
+               <nav aria-label="Volver a categorías">
+               <a href="#" class="volver">
+                    ← Volver a destinos
+               </a>
+               </nav>
+                   
+          </article>
+               
+        
+     </main>
+
+     <include src="../includes/footer.html"></include>
+     <script type="module" src="../app.js"></script>
+
+</body>
+</html>
