@@ -1,37 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Descubre los mejores destinos para viajar en familia con niños.">
-
-<title>Destinos para viajar en familia</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Descubre el Parque Nacional de Ordesa y Monte Perdido, un destino ideal para viajar en familia y disfrutar de la naturaleza.">
+     <title>Parque Nacional de Ordesa y Monte Perdido</title>
 </head>
 <body>
      <include src="../includes/header.html"></include>
      <main>
-          <section aria-labelledby="destinos-populares">
-               <h2 id="destinos-populares">Destinos familiares populares</h2>
-               <p>Explora lugares ideales para viajar con niños, con actividades, naturaleza y diversión garantizada.</p>
+          <article class="detalle-destino">
+               <header>
+               <h1>Parque Nacional de Ordesa y Monte Perdido</h1>
+               <p>
+                    Situado en el Pirineo aragonés, este parque nacional es uno de los espacios naturales
+                    más impresionantes de España y un destino ideal para disfrutar en familia.
+               </p>
+               </header>
 
-               <article>
-                    <header>
-                         <h3>Parque Nacional de Ordesa y Monte Perdido</h3>
-                    </header>
-                    <figure>
-                         <img src="../images/ordesa.jpg" alt="Familia caminando por el Parque Nacional de Ordesa y Monte Perdido">
-                         <figcaption>Senderismo en los Pirineos aragoneses, perfecto para familias aventureras.</figcaption>
-                    </figure>
-                    <p>Rutas fáciles, cascadas y paisajes espectaculares hacen de Ordesa un destino ideal para disfrutar en familia.</p>
+              <!-- Imagen principal con dirección de arte -->
+               <figure class="imagen-destacada">
+               <picture>
+               <!-- Escritorio -->
+               <source
+                    media="(min-width: 1024px)"
+                    srcset="../images/ordesa-desktop.jpg"
+               >
+
+               <!-- Tablet -->
+               <source
+                    media="(min-width: 768px)"
+                    srcset="../images/ordesa-tablet.jpg"
+               >
+
+               <!-- Móvil (fallback) -->
+               <img
+                    src="../images/ordesa-mobile.jpg"
+                    alt="Valle de Ordesa con montañas y senderos naturales"
+               >
+               </picture>
+
+               <figcaption>
+               Vista panorámica del Valle de Ordesa, corazón del parque nacional.
+               </figcaption>
+               </figure>
+
+               <!-- Contenido descriptivo -->
+               <section aria-labelledby="descripcion-ordesa">
+               <h2 id="descripcion-ordesa">Un entorno natural único</h2>
+
+               <p>
+                    El Parque Nacional de Ordesa y Monte Perdido destaca por sus profundos valles,
+                    cascadas espectaculares y una biodiversidad excepcional. Sus paisajes ofrecen
+                    un contacto directo con la naturaleza en estado puro.
+               </p>
+
+               <p>
+                    Es un destino perfecto para familias gracias a la existencia de rutas de senderismo
+                    bien señalizadas y adaptadas a distintos niveles de dificultad, lo que permite que
+                    niños y adultos disfruten juntos de la experiencia.
+               </p>
+
+               <p>
+                    Además de su valor paisajístico, el parque posee un gran interés cultural y educativo,
+                    siendo un lugar ideal para fomentar el respeto por el medio ambiente y el aprendizaje
+                    al aire libre.
+               </p>
+               </section>
+              
+               <!-- Galería de imágenes -->
+               <section aria-labelledby="galeria-ordesa">
+                    <h2 id="galeria-ordesa">Galería de imágenes</h2>
+
+                    <div class="galeria">
+                         <figure>
+                         <img src="../images/personas-disfrutando-concierto.jpg" alt="Familias disfrutando concierto de música en el Parque Nacional de Ordesa">
+                         <figcaption>Familias disfrutando concierto de música en el Parque Nacional de Ordesa.</figcaption>
+                         </figure>
+
+                         <figure>
+                         <img src="../images/arbol-de-hojas-verdes.jpg" alt="Árbol de hojas verdes en Parque Nacional Ordesa">
+                         <figcaption>Árbol de hojas verdes en Parque Nacional Ordesa.</figcaption>
+                         </figure>
+
+                         <figure>
+                         <img src="../images/personas-sentadas-sobre-alfombra.jpg" alt="Personas sentadas sobre alfombra en Parque Nacional de Ordesa">
+                         <figcaption>Personas sentadas sobre alfombra en Parque Nacional de Ordesa.</figcaption>
+                         </figure>
+                    </div>
+               </section>
+
+               <!-- Vídeo -->
+               <section class="section-video" aria-labelledby="video-ordesa">
+               <h2 id="video-ordesa">Descubre Ordesa en vídeo</h2>
+
+               <div class="video-responsive">
+                    <iframe  src="https://www.youtube.com/embed/cW7oqnEgeGk?si=Dq5eUoCRCCHrgsHl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               </div>
+               </section>
+
+               <!-- Navegación -->
+               <nav aria-label="Volver a categorías">
+               <a href="#" class="volver">
+                    ← Volver a destinos
+               </a>
+               </nav>
                    
-               </article>
+          </article>
                
-          </section>
+        
      </main>
 
 
      <include src="../includes/footer.html"></include>
-     <script type="module" src="/src/app.js"></script>
+     <script type="module" src="../app.js"></script>
 
 </body>
 </html>
