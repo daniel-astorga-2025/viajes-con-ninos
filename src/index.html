@@ -53,9 +53,9 @@
 
         <div class="swiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./images/foto1.jpg" alt="foto Parque Ordesa"></div>
-            <div class="swiper-slide"><img src="./images/foto2.jpg" alt="foto Portaventura"></div>
-            <div class="swiper-slide"><img src="./images/foto3.jpg" alt="foto Museo Valencia"></div>
+            <div class="swiper-slide"><img src="./images/foto1.jpg" alt="foto Parque Ordesa" loading="eager" fetchpriority="high"></div>
+            <div class="swiper-slide"><img src="./images/foto2.jpg" alt="foto Portaventura" loading="lazy" decoding="async"></div>
+            <div class="swiper-slide"><img src="./images/foto3.jpg" alt="foto Museo Valencia" loading="lazy" decoding="async"></div>
           </div>
           <!-- Botones de navegación -->
           <div class="swiper-button-next"></div>
@@ -82,6 +82,8 @@
           <img
             src="./images/dedo_en_mapa.jpg"
             alt="Dedo señalando un destino en un mapa, simbolizando la elección de un viaje"
+            loading="lazy"
+            decoding="async"
           />
         </figure>
 
@@ -97,7 +99,7 @@
    </main> 
 
   <include src="./includes/footer.html"></include>
-   <script src="https://unpkg.com/swiper@11.0.0/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/swiper@11.0.0/swiper-bundle.min.js" defer></script>
   <script type="module" src="./app.js"></script>
   
 </body>
